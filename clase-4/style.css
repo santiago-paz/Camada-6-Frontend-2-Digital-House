@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.noticia {
+    border: 2px solid blue;
+    margin: 1rem;
+    padding: 1rem;
+}
