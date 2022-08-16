@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;   
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    margin-top: 5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.tarjeta img {
+    border: 2px solid black;
+    border-radius: 10px;
+
+    max-width: 400px;
+}  

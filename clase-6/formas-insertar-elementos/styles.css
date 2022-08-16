@@ -12,6 +12,7 @@ body {
     padding: 1rem;
     border: 1px solid black;
     border-radius: 10px;
+    background-color: bisque;
 }
 
 .ingresado-dinamicamente {
