@@ -1,0 +1,26 @@
+body {
+    font-family: 'Comic Neue', cursive;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contador {
+    font-size: 60px;
+}
+
+.contenedor-botones button {
+    font-family: 'Comic Neue', cursive;
+    font-size: 40px;
+    width: 300px;
+    background-color:bisque;
+    border: 2px solid black;
+    border-radius: 10px;
+}
