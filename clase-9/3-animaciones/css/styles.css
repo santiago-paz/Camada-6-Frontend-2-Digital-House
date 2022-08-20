@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+#dvd_logo {
+    background: url("../img/dvd-logo.png");
+    background-size: cover;
+    width: 200px;
+    height: 90px;
+    position: absolute;
+}
