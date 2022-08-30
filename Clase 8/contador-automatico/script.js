@@ -9,8 +9,8 @@ setTimeout(() => {
 
 function iniciarContador() {
     contar = setInterval(() => {
-        i++;
-        elementoContador.innerText = i;
+        indexFrase++;
+        elementoContador.innerText = indexFrase;
     }, 1);
 }
 

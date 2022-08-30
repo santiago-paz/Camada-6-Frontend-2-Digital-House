@@ -2,11 +2,11 @@ const elementoContador = document.getElementById('valor_contador');
 let i = parseInt(elementoContador.innerText);
 
 function sumarContador() {
-    elementoContador.innerText = i++
+    elementoContador.innerText = indexFrase++
 }
 
 function restarContador() {
-    elementoContador.innerText = i--
+    elementoContador.innerText = indexFrase--
 }
 
 /* const boton = document.getElementById('boton_sumar')
