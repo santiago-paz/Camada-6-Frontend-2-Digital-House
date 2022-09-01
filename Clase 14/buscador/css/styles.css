@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+:root {
+  --primary: #647dee;
+  --secondary: #7f53ac;
+  --app-grey: #F2F2F2;
+  --warning: #fce043;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.super-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  flex-grow: 1;
+  color: white;
+  background-color: #7f53ac;
+  background-image: linear-gradient(315deg, var(--secondary)0%, var(--primary) 74%);
+}
+
+main {
+  flex-grow: 6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form label {
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+form input {
+  width: 500px;
+  padding: 7px 15px;
+  border-radius: 50vh;
+  border: 2px solid rgb(200, 200, 200);
+}
+form input:focus {
+  border: 2px solid var(--primary);
+  outline: none;
+}
+
+form button {
+  color: white;
+  font-size: 1.2em;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 50vh;
+  margin: 20px 0;
+  padding: 5px 35px;
+  cursor: pointer;
+}
+form button:hover {
+  background-color: var(--secondary);
+}
+form button:active {
+  background-color: var(--warning);
+}
+
+main h3{
+  margin: 20px 0 10px 0;
+}
+#busquedas-realizadas{
+  text-align: center;
+}
+
+#busquedas-realizadas p{
+  display: inline-block;
+  background-color: var(--app-grey);
+  padding: 5px 15px;
+  border-radius: 50vh;
+  margin: 10px;
+  
+}
+
+footer {
+  flex-grow: 1;
+  background-color: var(--app-grey);
+  color: rgb(138, 138, 138);
+}

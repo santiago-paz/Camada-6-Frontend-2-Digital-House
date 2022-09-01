@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Storage</title>
+    <script defer src="storage-1.js"></script>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif
+        }
+
+        label {
+            display: block;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Local Storage</h1>
+    <h2 id="saludo">Bienvenido, <span id="titulo_nombre"></span> </h2>
+    <form id="form_datos">
+        <fieldset>
+            <legend>Datos</legend>
+            <label>
+                Ingresá tu nombre
+                <input type="text" name="nombre" id="nombre">
+            </label>
+            <label>
+                Elegí un color de fondo
+                <select name="color_fondo" id="color_fondo">
+                    <option value="red">Rojo</option>
+                    <option value="#7777ff">Azul</option>
+                    <option value="orange">Naranja</option>
+                    <option value="grey">Gris</option>
+                </select>
+            </label>
+        </fieldset>
+    </form>
+</body>
+
+</html>
