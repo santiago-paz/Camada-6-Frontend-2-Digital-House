@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Posteador de mensajes</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer src="./index.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Postea tu mensaje!</h1>
+    <p>Selecciona el mensaje que queres postear:</p>
+    <ul>
+      <li>
+        <button data-titulo="Que hay de nuevo, viejo?" data-id-usuario="1" id="boton1">
+          "Que hay de nuevo, viejo?"
+        </button>
+      </li>
+      <li>
+        <button data-titulo="Eso es todo amigos!" data-id-usuario="2" id="boton2">
+          Eso es todo amigos!
+        </button>
+      </li>
+      <li>
+        <button data-titulo="Al infinito... ¡y más allá!" data-id-usuario="3" id="boton3">
+          Al infinito... ¡y más allá!
+        </button>
+      </li>
+      <li>
+        <button data-titulo="¡Ay, caramba!" data-id-usuario="4" id="boton4">
+          ¡Ay, caramba!
+        </button>
+      </li>
+    </ul>
+    <p id="respuesta">
+      Mensaje posteado: <span id="mensaje-posteado"></span>
+    </p>
+  </div>
+</body>
+
+</html>

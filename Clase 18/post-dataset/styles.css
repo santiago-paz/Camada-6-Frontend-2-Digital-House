@@ -1,0 +1,87 @@
+@font-face {
+  font-family: comicSans;
+  src: url(comicSans.ttf);
+}
+
+body {
+  font-family: comicSans;
+  width: 100vw;
+  height: 100vh;
+  background: lemonchiffon;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  margin-top: 1rem;
+  width: 100%;
+}
+
+li button {
+  padding: 1rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 4px darkgray;
+  color: whitesmoke;
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3rem;
+}
+
+button {
+  font-family: comicSans;
+}
+
+#boton1 {
+  background-color: coral;
+  border: 2px solid coral;
+}
+
+#boton2 {
+  background-color: peru;
+  border: 2px solid peru;
+}
+
+#boton3 {
+  background-color: lightpink;
+  border: 2px solid lightpink;
+}
+
+#boton4 {
+  background-color: lightseagreen;
+  border: 2px solid lightseagreen;
+}
+
+#respuesta {
+  margin: 4rem auto;
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#respuesta span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
